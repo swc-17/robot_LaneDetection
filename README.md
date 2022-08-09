@@ -12,9 +12,11 @@ Software:
 
 
 ## Usage
-* build: `mkdir build && cd build && cmake .. && make`
-* model conversion: convert lane.wts to tensorrt engine   `./model_conversion`  
-* lane_detection: `./main`
+* Build: `mkdir build && cd build && cmake .. && make`
+* Model conversion: 
+    * Download lane.wts from [model](https://pan.baidu.com/s/1HNQvcp7iE6NVhswlYJeu5A) (code:14je) and put it into models/
+    * Convert to tensorrt engine   `./model_conversion`  
+* Lane_detection: `./main`
 
 ## Details
 * Input: Define variable `video` in `UFLD.h` to be the input video file path
